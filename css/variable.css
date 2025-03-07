@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+	--primary-color: #ffffff;
+	--dark-color: #262a2f;
+	--accent-color: #ff5533;
+	--grey-color: #868686;
+	--responsive-medium-margin: calc(70 / 1435 * 100vw);
+	--responsive-small-margin: calc(
+		32px - (12.5 * ((1435px - 100vw) / (1435 - 569)))
+	);
+	--primary-font-size: calc(18px + 6 * (100vw / 1435));
+	--grid-column-width: 101px;
+	--grid-gap: 20px;
+}
